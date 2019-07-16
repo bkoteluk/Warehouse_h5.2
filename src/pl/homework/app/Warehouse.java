@@ -1,3 +1,7 @@
+package pl.homework.app;
+
+import pl.homework.lib.Device;
+
 class Warehouse {
     public static void main(String[] args) {
         Device device1 = new Device("QE65Q7FAM", "Samsung", "TV", 9499.99); //code, producer, type, price

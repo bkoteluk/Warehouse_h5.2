@@ -1,3 +1,5 @@
+package pl.homework.lib;
+
 public class Device {
     //code, producer, type, price
     private String code;
@@ -51,7 +53,7 @@ public class Device {
         this.price = price;
     }
 
-    protected String getInfo() {
+    public String getInfo() {
         return "Kod: " + getCode() + ", producent: " + getProducer() + ", typ: " + getType() + ", cena: " + getPrice();
     }
 }
