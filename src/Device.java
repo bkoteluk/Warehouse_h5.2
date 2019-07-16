@@ -50,4 +50,8 @@ public class Device {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    protected String getInfo() {
+        return "Kod: " + getCode() + ", producent: " + getProducer() + ", typ: " + getType() + ", cena: " + getPrice();
+    }
 }
